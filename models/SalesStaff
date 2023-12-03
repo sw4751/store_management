@@ -1,0 +1,22 @@
+package models;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+class SalesStaff extends User implements Serializable {
+
+    public SalesStaff(String name, String staffCode) {
+        super(name, staffCode);
+    }
+
+    public void recordSales(int quantity, String merchandise) {
+    }
+
+    public void searchSale(String inventory) {
+    }
+
+    public void searchHistory(String merchandise) {
+    }
+}
